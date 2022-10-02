@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador | m.quintana</title>
+    <link rel="icon" href="img/icono.ico">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="caja-logo">
+            <img class="logo" src="img/logo.png" alt="Logo de la página">
+        </div>
+    </header>
+
+    <main>
+        <section class="bienvenida">
+            <h3 class="titulos">
+                ≮ Proyecto Encriptador>
+            </h3>
+            <p class="funciones">
+                Pega tu texto. <b>ENCRIPTA</b>. Oculta tu mensaje.
+            </p>
+            <h3 class="titulos">
+                ≮ ¿Olvidaste el significado?>
+            </h3>
+            <p class="funciones">
+                <b>DESENCRIPTA</b>. Obtén el texto original.
+            </p>
+        </section>
+
+        <fieldset class="tablas-Encriptador">
+            <form class="textoOriginal">
+                <input id="textoNormal" type="text" placeholder="coloque su texto aqui...">
+            </form>
+            
+            <form class="textoCifrado">
+                <input class="textoEncriptado" type="text" placeholder="texto codificado...">
+            </form>
+
+            <button class="btn-copiar">Copiar</button>
+
+            <div class="btns">
+                <input type="button" class="btn-encripta" value="ENCRIPTA">
+                <input type="button" class="btn-desencripta" value="DESENCRIPTA">
+            </div>  
+        </fieldset>
+    </main>
+
+    <section class="requisitos">
+        <h3 class="titulo-requisitos">
+            ≮ Recuerda que no puedes...
+        </h3>
+
+        <div class="lista-requisitos">
+            <ul class="lista">
+                <li class="items">&#10230 Usar símbolos especiales</li>
+                <li class="items">&#10230 Usar acentos</li>
+                <li class="items">&#10230 Usar mayúsculas</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="despedida">
+            <p>
+                Esperamos que haya sido de su agrado. Gracias.
+            </p>
+            <p class="emoji-despedida">
+                (っ˘ω˘ς )
+            </p>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        &copyCopyright 2022
+    </div>
+
+    <script src="script.js"></script>
+    <script src="copiar-pegar.js"></script>
+</body>
+</html>
